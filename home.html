@@ -6,7 +6,9 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220729184359">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220803160219">
+	<link rel="stylesheet" href="css/style.css?_v=20220803160219">
+	<link rel="stylesheet" href="home.scss?_v=20220803160219">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,30 +16,107 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
+		<header class="header header__home">
+
+			<div class="contact-us">
+				<div class="date">
+					<div class="date__day">Mon-Thu:</div>
+					<div class="date__time">9:00 AM - 5:30 PM</div>
+					<div class="date__time-chose"></div>
+				</div>
+				<div class="contacts">
+					<div class="contacts__text">Visit our showroom in 1234 Street Adress City Address, 1234 <a class="contact-us__link" href="_blank" href="contacts.php"> Contact Us</a>
+					</div>
+				</div>
+				<div class="call-us">
+					<div class="call-us__text">Call us:</div>
+					<div class="call-us__number">(00) 1234 5678</div>
+					<div class="call-us__soc">
+						<img class="call-us__img-facebook" src="img/ant-design_facebook-filled.svg" alt="facebook">
+						<img class="call-us__img-instagram" src="img/ant-design_instagram-filled.svg" alt="instagram">
+					</div>
+				</div>
+			</div>
+			<nav class="nav-bar">
+				<div class="menu">
+					<div class="logo">
+						<img class="logo-ico" src="img/1.svg" alt="logo">
+					</div>
+					<div class="menu__list">
+						<ul class="list__block">
+							<li class="list-item"><a target="_blank">Laptops</a></li>
+							<li class="list-item"><a target="_blank">Desktop PCs</a></li>
+							<li class="list-item"><a target="_blank">Networking Devices</a></li>
+							<li class="list-item"><a target="_blank">Printers & Scanners</a></li>
+							<li class="list-item"><a target="_blank">PC Parts</a></li>
+							<li class="list-item"><a target="_blank">All Other Products</a></li>
+							<li class="list-item"><a target="_blank">Repairs</a></li>
+							<li class="list-item"><a target="_blank"><span class="our-deals">Our Deals</span></a></li>
+						</ul>
+					</div>
+					<div class="menu__items">
+						<div class="menu__buttons">
+							<img src="img/gg_search.svg" alt="search-ico">
+							<img src="img/jam_shopping-cart.svg" alt="shopping-ico">
+						</div>
+						<div class="button__profile"><picture><source srcset="img/profile.webp" type="image/webp"><img src="img/profile.png" alt="profile-ico"></picture></div>
+					</div>
+
+				</div>
+			</nav>
+			<div class="about-us__heading">
+				<div class="about-us__nav">Home > About Us</div>
+				<div class="about-us__title">About Us</div>
 			</div>
 		</header>
-		<main class="page">
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
+
+		<main class="page page__home">
+			<div class="about-us">
+
+				<div class="about-us__family box-black">
+					<div class="family">
+						<div class="family__title">A Family That Keeps On Growing</div>
+						<div class="family__text">We always aim to please the home market, supplying great computers and hardware at great prices to non-corporate customers, through our large Melbourne CBD showroom and our online store.
+							<br><br>
+
+							Shop management approach fosters a strong customer service focus in our staff. We prefer to cultivate long-term client relationships rather than achieve quick sales, demonstrated in the measure of our long-term success.
+						</div>
+					</div>
+					<div class="family__img box_img"> <picture><source srcset="img/Rectangle_54.webp" type="image/webp"><img class="family-img" src="img/Rectangle_54.png" alt="Rectangle"></picture></div>
+				</div>
 			</div>
+
+			<div class="about-us__shop-com box-white">
+				<div class="shop-com__img box_img"> <picture><source srcset="img/Rectangle_11.webp" type="image/webp"><img class="shop-com-img" src="img/Rectangle_11.png" alt="Rectangle"></picture></div>
+
+				<div class="shop-com">
+					<div class="title-ico"><img class="title-img" src="img/Group91.svg" alt="Group91"></div>
+					<div class="shop-com__title">shop.com</div>
+					<div class="shop-com__text">Shop is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations. We provide complete business IT solutions, centred on high quality hardware and exceptional customer service.</div>
+				</div>
+			</div>
+
+			<div class="about-us__safe box-black">
+
+				<div class="safe">
+					<div class="title-ico"><img class="title-img" src="img/hearth_ico.svg" alt="Group91"></div>
+					<div class="safe__title">You're In Safe Hands</div>
+					<div class="safe__text">Experience a 40% boost in computing from last generation. MSI Desktop equips the 10th Gen. Intel® Core™ i7 processor with the upmost computing power to bring you an unparalleled gaming experience.
+						<br><br>
+						*Performance compared to i7-9700. Specs varies by model.
+					</div>
+				</div>
+				<div class="safe__img box_img"> <picture><source srcset="img/Mask_Group.webp" type="image/webp"><img class="safe-img" src="img/Mask_Group.png" alt="Rectangle"></picture></div>
+
+			</div>
+		</main>
+
+
+		<footer class="footer footer__homer">
+			footer
 		</footer>
 	</div>
-	<!-- 
-<div id="popup" aria-hidden="true" class="popup">
-	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
-			</div>
-		</div>
-	</div>
-</div>
- -->
-
-	<script src="js/app.min.js?_v=20220729184359"></script>
+	<script src="js/app.min.js?_v=20220803160219"></script>
 </body>
 
 </html>
