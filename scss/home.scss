@@ -1,0 +1,262 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1 1 auto;
+}
+.page {
+
+    // .page__home
+
+    &__home {
+        flex-flow: column wrap;
+display: flex;
+align-content: center;    }
+}
+.about-us {
+font-family: 'Poppins';
+font-style: normal;
+width: 100%;
+background-color: #000000;
+    // .about-us__heading
+
+    &__heading {
+        max-width: 1390px;
+        margin: 0 auto;
+    }
+    &__heading:first-child {
+        margin-bottom: 21px;
+    }
+    &__heading:last-child {
+        margin-bottom: 22px;
+    }
+
+    // .about-us__nav
+
+    &__nav {  
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: #000000;
+text-align: left;
+margin-bottom: rem(10);
+    }
+
+    // .about-us__title
+
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.5;
+        color: #000000;
+
+    }
+
+    // .about-us__family
+
+    &__family {
+        display: flex;
+        padding:  96px 0px 96px 0px;
+        max-width: 1190px;
+margin: 0 auto;
+    }
+}
+.box-black {
+    // .box_black
+  color: white;
+    // .box_img
+
+    &_img {
+    }
+}
+.family {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+margin-right: 16%;
+    // .family__title
+padding: 0 15px;
+    &__title {
+        font-weight: 500;
+font-size: 44px;
+line-height: 1.31;
+max-width: 465px;
+flex: 1 1 auto;
+
+    }
+
+    // .family__text
+
+    &__text {
+        font-weight: 300;
+font-size: 18px;
+line-height: 1.44;
+max-width: 435px;
+flex: 1 1 auto;
+
+    }
+
+    // .family__img
+
+    &__img {
+        position: relative;
+ }
+        .family-img{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+// SHOP-COM
+
+.about-us__shop-com{
+    display: flex;
+        padding:  170px 0px 162px 0px;
+        max-width: 1250px;
+        align-self: center;
+        column-gap: 115px;
+}
+.box-white{
+    color: black;
+}
+.shop-com {
+    padding: 0 15px;
+display: flex;
+flex-direction: column;
+    // .shop-com__title
+column-gap: 116px;
+    &__title {
+        font-weight: 500;
+font-size: 44px;
+line-height: 1.31;
+text-transform: lowercase;
+color: #000000;
+margin-bottom: rem(20);
+    }
+    
+
+    // .shop-com__text
+
+    &__text {
+        font-weight: 300;
+font-size: 18px;
+line-height: 144%;
+display: flex;
+color: #000000;
+max-width: 436px;
+
+    }
+   
+    // .shop-com__img
+
+    &__img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+.box {
+
+    // .box_img
+    &_img {
+        position: relative;
+        max-width: 666px;
+        display: flex;
+        justify-content: center;
+    }
+   
+}
+.shop-com-img {
+
+height: auto;
+object-fit: contain;
+}
+.title-ico {
+    display: flex;
+    justify-content: flex-start;
+}
+.title-img {
+height: auto;
+flex: 0 1 31px;
+object-fit: contain;
+
+}
+
+.about-us {
+    // .about-us__safe
+
+    &__safe {
+        background-color: #000000;
+
+    }
+}
+.box-black {
+    display: flex;
+    justify-content: center;
+}
+.safe {
+max-width: 1120px;
+padding: 79px 0 57px 0;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+    // .safe__title
+
+    &__title {
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 1.31;
+        text-transform: lowercase;
+        margin-bottom: rem(20);
+    }
+
+    // .safe__text
+
+    &__text {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 144%;
+        display: flex;
+        max-width: 436px;
+    }
+
+    // .safe__img
+
+    &__img {
+       
+    }
+}
+.title-ico {
+    display: flex;
+    justify-content: flex-start;
+}
+.title-img {
+    height: auto;
+    flex: 0 1 50px;
+    object-fit: contain;
+    width: 50px;
+}
+.box {
+
+    // .box_img
+
+    &_img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}
+.safe-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+

@@ -1,0 +1,187 @@
+.header {
+
+	// .header__home
+	&__home {
+
+	}
+
+
+}
+.contact-us {
+	// .contact__us
+	display: flex;
+	background-color: black;
+	padding: 15px 0px;
+
+	justify-content: space-evenly;
+	font-style: normal;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 1.5;
+		align-items: center;
+}
+.date {
+	flex-wrap: wrap;
+display: flex;
+column-gap: 5px;
+
+// .date__day
+	&__day {
+		color: #A2A6B0;
+		
+		
+	}
+
+	// .date__time
+
+	&__time {
+		color: white;
+	}
+
+	// .date__time-chose
+
+	&__time-chose {
+	}
+}
+.contacts {
+display: flex;
+	// .contacts__text
+
+	&__text {
+		color: #A2A6B0;
+display: inline-flex;
+column-gap: 5px;
+
+.contact-us__link {
+	color: white;
+		}
+		.contact-us__link::after{			
+				content: "";
+				display: block;
+				width: 100%;
+				padding-top: 2px;
+				border-bottom: 2px solid white;
+			  
+		}
+	}
+	
+}
+
+.call-us {
+display: flex;
+column-gap: 5px;
+color: white;
+	// .call-us__text
+
+	&__text {
+	}
+
+	// .call-us__number
+
+	&__number {
+	}
+
+	// .call-us__soc
+
+	&__soc {
+		display: inline-flex;
+		column-gap: 5px;
+		margin-left: 5px;
+		align-items: flex-start;
+	}
+
+	// .call-us__img-facebook
+
+	&__img-facebook {
+	}
+
+	// .call-us__img-instagram
+
+	&__img-instagram {
+	}
+}
+
+// НАВИГАЦИЯ
+
+.nav-bar {
+	max-width: 1390px;
+	display: flex;
+	margin: 0 auto;
+	padding: 35px 20px;
+	
+}
+.menu {
+display: flex;
+flex-wrap: wrap;
+
+		// .menu__list
+		&__list {
+			display: flex;
+			
+		}
+
+		// .menu__items
+
+		&__items {
+			display: flex;
+			margin-left: 140px;
+			column-gap: 20px;
+			align-items: flex-start;
+
+		}
+
+		// .menu__buttons
+
+		&__buttons {
+			display: flex;
+			align-items: flex-start;
+			column-gap: 20px;
+			position: relative;
+			.button__profile img{
+				position: absolute;
+				top: -5px;
+			}
+		}
+}
+.logo {
+	position: relative;
+flex: 0 1 34px;
+top: -10px;	
+left: -30px;
+}
+.logo-ico {
+
+}
+.list {
+		// .list__block
+
+		&__block {
+			color: black;
+
+			.our-deals{
+				border: 2px solid #0156FF;
+				padding: 10px 30px;
+border-radius: 40px;
+			}
+		}
+}
+.list-item {
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 1.5;
+text-align: center;
+float: left;
+padding: 0 15px;
+}
+.button {
+display: flex;
+		// .button__profile
+
+		&__profile {
+			display: flex;
+flex: 0 1 34px;
+align-items: flex-start;
+		}
+}
